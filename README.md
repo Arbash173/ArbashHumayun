@@ -206,7 +206,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Email: arbashhumayun0@gmail.com
 - LinkedIn: [linkedin.com/in/arbashse](https://linkedin.com/in/arbashse)
 - GitHub: [github.com/Arbash173](https://github.com/Arbash173)
-- Portfolio: [arbashhumayun.netlify.app](https://arbashhumayun.netlify.app)
+- Portfolio: [arbash-humayun.vercel.app](https://arbash-humayun.vercel.app)
 
 ## 🙏 Acknowledgments
 
