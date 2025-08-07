@@ -208,7 +208,7 @@ export function ContactSection() {
           className="text-center mt-16 pt-8 border-t border-gray-800"
         >
           <p className="text-gray-400">
-            © 2024 Arbash Humayun. All rights reserved.
+            © 2025 Arbash Humayun. All rights reserved.
           </p>
         </motion.div>
       </div>
