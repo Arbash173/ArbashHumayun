@@ -38,10 +38,11 @@ export function AboutSection() {
                 Professional Background
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                I&apos;m a dedicated Full Stack Web Developer with over 3 years of experience 
-                in creating innovative web solutions. Based in Berlin, Germany, I specialize 
-                in building scalable, high-performance applications using cutting-edge 
-                technologies like React.js, Next.js, and Angular.
+                I&apos;m a dedicated Full Stack Web Developer with 4+ years of experience 
+                building and scaling frontend-heavy web applications. I have delivered 
+                production React and Next.js applications serving 5,000+ users, reduced 
+                frontend performance bottlenecks by up to 30%, and built reusable component 
+                systems that reduced duplicate code by ~35%.
               </p>
             </div>
 
@@ -74,19 +75,23 @@ export function AboutSection() {
               <h3 className="text-2xl font-bold text-white mb-4">
                 Education
               </h3>
-              <div className="bg-gray-800 rounded-lg p-6">
-                <div className="flex items-start space-x-4">
-                  <GraduationCap className="w-6 h-6 text-blue-400 mt-1" />
-                  <div>
-                    <h4 className="text-lg font-semibold text-white">
-                      {education.degree}
-                    </h4>
-                    <p className="text-gray-400">{education.institution}</p>
-                    <p className="text-sm text-gray-500">
-                      {formatDate(education.startDate)} - {formatDate(education.endDate)}
-                    </p>
+              <div className="space-y-4">
+                {education.map((edu, index) => (
+                  <div key={index} className="bg-gray-800 rounded-lg p-6">
+                    <div className="flex items-start space-x-4">
+                      <GraduationCap className="w-6 h-6 text-blue-400 mt-1" />
+                      <div>
+                        <h4 className="text-lg font-semibold text-white">
+                          {edu.degree}
+                        </h4>
+                        <p className="text-gray-400">{edu.institution}</p>
+                        <p className="text-sm text-gray-500">
+                          {formatDate(edu.startDate)} - {formatDate(edu.endDate)}
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
             </div>
 
@@ -148,7 +153,7 @@ export function AboutSection() {
                     </div>
                     <div className="flex items-center">
                       <Calendar className="w-4 h-4 mr-1" />
-                      3+ Years Exp
+                      4+ Years Exp
                     </div>
                   </div>
                 </div>

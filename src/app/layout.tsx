@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Arbash Humayun - Full Stack Web Developer",
-  description: "Full Stack Web Developer with 3+ years of experience building responsive, accessible, and high-performance web applications using React.js, Next.js, and Angular. Based in Berlin, Germany.",
+  description: "Full Stack Web Developer with 4+ years of experience building responsive, accessible, and high-performance web applications using React.js, Next.js, and TypeScript. Specialized in frontend platform engineering and data-heavy UI development. Based in Berlin, Germany.",
   keywords: [
     "Arbash Humayun",
     "Full Stack Developer",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://arbashhumayun.netlify.app/",
     title: "Arbash Humayun - Full Stack Web Developer",
-    description: "Full Stack Web Developer with 3+ years of experience building responsive, accessible, and high-performance web applications.",
+    description: "Full Stack Web Developer with 4+ years of experience building responsive, accessible, and high-performance web applications.",
     siteName: "Arbash Humayun Portfolio",
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Arbash Humayun - Full Stack Web Developer",
-    description: "Full Stack Web Developer with 3+ years of experience building responsive, accessible, and high-performance web applications.",
+    description: "Full Stack Web Developer with 4+ years of experience building responsive, accessible, and high-performance web applications.",
     images: ["/og-image.jpg"],
   },
   manifest: "/manifest.json",

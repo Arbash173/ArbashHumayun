@@ -2,7 +2,7 @@ import { Skill, Project, Experience, Education, Certificate, ContactInfo } from 
 
 export const contactInfo: ContactInfo = {
   email: 'arbashhumayun0@gmail.com',
-  phone: '+49176 37102424',
+  phone: '+49 176 3710 2424',
   location: 'Berlin, Germany',
   linkedin: 'linkedin.com/in/arbashse',
   github: 'github.com/Arbash173',
@@ -10,86 +10,82 @@ export const contactInfo: ContactInfo = {
 }
 
 export const skills: Skill[] = [
-  // Frontend
-  { name: 'React.js', category: 'frontend', level: 90 },
+  // Frontend Platform Engineering
+  { name: 'TypeScript', category: 'frontend', level: 90 },
+  { name: 'React', category: 'frontend', level: 90 },
   { name: 'Next.js', category: 'frontend', level: 85 },
-  { name: 'Angular', category: 'frontend', level: 80 },
-  { name: 'TypeScript', category: 'frontend', level: 85 },
-  { name: 'HTML & CSS', category: 'frontend', level: 90 },
-  { name: 'Redux Toolkit', category: 'frontend', level: 80 },
-  { name: 'RxJS', category: 'frontend', level: 75 },
+  { name: 'Component-driven architecture', category: 'frontend', level: 85 },
+  { name: 'Reusable UI & Design Systems', category: 'frontend', level: 80 },
+  { name: 'Accessibility (WCAG, semantic HTML)', category: 'frontend', level: 80 },
+  { name: 'Data-heavy UI', category: 'frontend', level: 85 },
   
-  // Backend
-  { name: 'Python', category: 'backend', level: 70 },
-  { name: 'Node.js', category: 'backend', level: 80 },
+  // State, Data & APIs
+  { name: 'Redux Toolkit', category: 'frontend', level: 85 },
+  { name: 'React Query', category: 'frontend', level: 80 },
   { name: 'REST APIs', category: 'backend', level: 85 },
-  { name: 'GraphQL', category: 'backend', level: 75 },
+  { name: 'GraphQL (Apollo Client)', category: 'backend', level: 80 },
   
-  // Tools & DevOps
-  { name: 'Postman', category: 'tools', level: 85 },
-  { name: 'Git', category: 'tools', level: 90 },
-  { name: 'AWS', category: 'tools', level: 75 },
-  { name: 'Docker', category: 'tools', level: 80 },
-  { name: 'CI/CD', category: 'tools', level: 75 },
-  { name: 'Unit Testing', category: 'tools', level: 80 },
+  // Testing & Quality
   { name: 'Jest', category: 'tools', level: 80 },
-  { name: 'E2E Testing', category: 'tools', level: 75 },
+  { name: 'Cypress', category: 'tools', level: 75 },
   
-  // AI Tools
-  { name: 'Co-pilot', category: 'ai', level: 85 },
-  { name: 'Cursor.io', category: 'ai', level: 90 }
+  // Engineering Practices
+  { name: 'Ownership', category: 'tools', level: 90 },
+  { name: 'Cross-functional collaboration', category: 'tools', level: 85 },
+  { name: 'Performance optimization', category: 'tools', level: 85 },
+  { name: 'Agile / Scrum', category: 'tools', level: 80 }
 ]
 
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Realtime Chat App',
-    description: 'A real-time messaging application with instant communication features and secure authentication.',
-    technologies: ['MERN Stack', 'Socket.io', 'JWT auth', 'TailwindCSS'],
-    image: '/projects/chat-app.jpg',
-    githubUrl: 'https://github.com/Arbash173/fullstack-chat-app',
-    liveUrl: 'https://fullstack-chat-app-3-t72i.onrender.com',
+    title: 'Next.js Social Platform',
+    description: 'Built a scalable social platform using Next.js, React, and TypeScript with authentication, form-heavy user flows, and reusable UI components. Focused on performance, accessibility, and maintainable frontend architecture.',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Authentication', 'UI Components'],
+    image: '/projects/social-platform.jpg',
+    githubUrl: 'https://github.com/Arbash173/social-platform',
+    liveUrl: 'https://social-platform-demo.vercel.app',
     features: [
-      'Real-time messaging with Socket.io',
-      'JWT authentication and authorization',
-      'Responsive design with TailwindCSS',
-      'Secure deployment on Render',
-      'User presence indicators',
-      'Message history and search'
+      'Scalable Next.js architecture',
+      'Authentication system',
+      'Form-heavy user flows',
+      'Reusable UI components',
+      'Performance optimization',
+      'Accessibility compliance'
     ]
   },
   {
     id: '2',
-    title: 'GraphQL Expense Tracker',
-    description: 'A comprehensive expense tracking application with GraphQL API and advanced financial management features.',
-    technologies: ['Apollo GraphQL', 'MERN Stack', 'Passport.js', 'Apollo Client'],
-    image: '/projects/expense-tracker.jpg',
-    githubUrl: 'https://github.com/Arbash173/expense-tracker',
-    liveUrl: 'https://expense-tracker-2fw4.onrender.com',
+    title: 'Financial Dashboard Platform',
+    description: 'Developed a data-intensive dashboard using React, TypeScript, Redux Toolkit, and Chart.js. Implemented reusable chart and table components and optimized rendering for analytics views.',
+    technologies: ['React', 'TypeScript', 'Redux Toolkit', 'Chart.js', 'Data Visualization'],
+    image: '/projects/financial-dashboard.jpg',
+    githubUrl: 'https://github.com/Arbash173/financial-dashboard',
+    liveUrl: 'https://financial-dashboard-demo.vercel.app',
     features: [
-      'Session-based authentication with Passport.js',
-      'GraphQL API with Apollo Server',
-      'Cron jobs for automated tasks',
-      'Full-stack implementation',
-      'Real-time data synchronization',
-      'Advanced reporting and analytics'
+      'Data-intensive dashboard',
+      'Reusable chart components',
+      'Redux Toolkit for state management',
+      'Optimized rendering',
+      'Analytics views',
+      'Interactive data visualization'
     ]
   },
   {
     id: '3',
-    title: 'Socially - Social Media App',
-    description: 'A modern social media platform built with Next.js 14 and advanced features for content sharing and interaction.',
-    technologies: ['Next.js App Router', 'TypeScript', 'PostgreSQL', 'Prisma', 'Clerk auth'],
-    image: '/projects/socially.jpg',
-    githubUrl: 'https://github.com/Arbash173/Social-Media-',
-    liveUrl: 'https://social-media-nine-murex.vercel.app',
+    title: 'GraphQL Expense Tracker',
+    description: 'Built a React + TypeScript expense tracking application using Apollo GraphQL, focusing on predictable data flows, clean UI architecture, and reusable components.',
+    technologies: ['React', 'TypeScript', 'Apollo GraphQL', 'Expense Tracking'],
+    image: '/projects/expense-tracker.jpg',
+    githubUrl: 'https://github.com/Arbash173/expense-tracker',
+    liveUrl: 'https://expense-tracker-2fw4.onrender.com',
     features: [
-      'File uploads with cloud storage',
-      'Server and client components',
-      'Optimistic updates for better UX',
-      'Shadcn UI components',
-      'Real-time notifications',
-      'Advanced content moderation'
+      'Apollo GraphQL integration',
+      'Predictable data flows',
+      'Clean UI architecture',
+      'Reusable components',
+      'Expense tracking functionality',
+      'TypeScript for type safety'
     ]
   }
 ]
@@ -98,42 +94,53 @@ export const experience: Experience[] = [
   {
     id: '1',
     company: 'Enterprise64',
-    position: 'Software Engineer',
-    startDate: '2023-06',
-    endDate: '2024-11',
+    position: 'Fullstack Engineer',
+    startDate: '2023-02',
+    endDate: '2025-04',
     achievements: [
-      'Reduced UI-related bugs by ~30% using React.js, Angular, Next.js with Redux Toolkit',
-      'Improved data rendering speed by 25% through API optimization',
-      'Reduced deployment time by 40% with Docker containerization',
-      'Improved sprint consistency by 15% with Git/JIRA workflow',
-      'Reduced code duplication by 35% with modular components',
-      'Increased test coverage to 60+ % with Jest and Cypress',
-      'Active in Agile ceremonies and code reviews'
+      'Owned end-to-end development of frontend-heavy features using React, Next.js, and TypeScript across multiple production applications serving 5,000+ active users.',
+      'Built and maintained scalable React and Next.js applications, reducing page load times by ~30% through component optimization and improved data-fetching strategies.',
+      'Designed and implemented reusable UI components and shared patterns, reducing duplicated frontend code by ~35% across projects.',
+      'Collaborated closely with designers and product managers to translate complex business workflows into intuitive user interfaces.',
+      'Integrated data-heavy dashboards (tables, charts, analytics views) used daily by operations and management teams.',
+      'Worked with type-safe API contracts and frontend validation, improving application stability and reducing runtime UI errors.',
+      'Wrote unit and integration tests for critical user flows, reducing production UI bugs.',
+      'Participated in code reviews and architectural discussions to maintain consistent frontend standards.'
     ],
-    technologies: ['React.js', 'Angular', 'Next.js', 'Redux Toolkit', 'Docker', 'Jest', 'Cypress', 'Git', 'JIRA']
+    technologies: ['React', 'Next.js', 'TypeScript', 'Redux Toolkit', 'REST APIs', 'GraphQL', 'Jest', 'Cypress']
   },
   {
     id: '2',
     company: 'Mitsol',
-    position: 'Front-end Developer',
-    startDate: '2022-10',
-    endDate: '2023-03',
+    position: 'Frontend Engineer',
+    startDate: '2021-02',
+    endDate: '2023-01',
     achievements: [
-      'Increased user engagement by 30% with React.js improvements',
-      'Reduced re-render cycles by 30% through UI optimization',
-      'Improved data-fetching efficiency by 25% with REST API integration',
-      'Utilized Redux for state management'
+      'Developed and shipped production React and Angular applications used by 1,000+ users across multiple client projects.',
+      'Built reusable, component-driven UI modules aligned with UX designs, accelerating feature delivery by ~25%.',
+      'Improved application performance and state management using Redux Toolkit, reducing unnecessary re-renders by ~30%.',
+      'Implemented responsive and accessible UI components, improving usability across desktop and mobile devices.',
+      'Worked closely with backend engineers to design and consume REST APIs.',
+      'Collaborated in Agile teams, contributing to sprint planning, code reviews, and continuous improvement.'
     ],
-    technologies: ['React.js', 'Redux', 'REST APIs', 'JavaScript', 'HTML/CSS']
+    technologies: ['React', 'Angular', 'Redux Toolkit', 'REST APIs', 'JavaScript', 'HTML/CSS']
   }
 ]
 
-export const education: Education = {
-  degree: 'Bachelors in Computer Engineering',
-  institution: 'Sir Syed University',
-  startDate: '2019-02',
-  endDate: '2023-02'
-}
+export const education: Education[] = [
+  {
+    degree: 'Masters in Data Science',
+    institution: 'Arden University Berlin',
+    startDate: '2024-11',
+    endDate: '2025-12'
+  },
+  {
+    degree: 'Bachelor of Computer Engineering',
+    institution: 'Sir Syed University of Engineering and Technology',
+    startDate: '2017-02',
+    endDate: '2020-02'
+  }
+]
 
 export const certificates: Certificate[] = [
   {

@@ -52,11 +52,11 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Full Stack Web Developer with 3+ years of experience building 
+            Full Stack Web Developer with 4+ years of experience building 
             responsive, accessible, and high-performance web applications using 
-            React.js, Next.js, and Angular. Skilled in Node.js and REST API 
-            development, with hands-on experience in AWS cloud services, Docker 
-            containerization, and implementing CI/CD pipelines.
+            React.js, Next.js, and TypeScript. Specialized in frontend platform 
+            engineering with expertise in component-driven architecture, state 
+            management, and data-heavy UI development.
           </motion.p>
 
           <motion.div
